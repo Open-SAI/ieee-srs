@@ -1,5 +1,6 @@
 # Especificación de Requerimientos de Software
-# Para  `<__Prototipo ReA__: __Re__alidad __A__umentada para el Apoyo de Procesos Logísticos>`
+## Para  
+`<__Prototipo ReA__: __Re__alidad __A__umentada para el Apoyo de Procesos Logísticos>`
 Version `<0.11>`
 Creada por
 `<OpenSAI>`
