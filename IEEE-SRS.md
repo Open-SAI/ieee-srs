@@ -1,5 +1,5 @@
 # Especificación de Requerimientos de Software
-# Para  `<Prototipo ReA: [Re]alidad [A]umentada para el Apoyo de Procesos Logísticos>`
+# Para  `<**Prototipo ReA**: **Re**alidad **A**umentada para el Apoyo de Procesos Logísticos>`
 Version `<0.11>`
 Creada por
 `<OpenSAI>`
