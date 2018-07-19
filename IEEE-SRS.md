@@ -199,13 +199,13 @@ For each interface, the following should be provided:
 
 Se describe a continuación los productos de software que interactuan con los componentes del prototipo:
 
-+ Aplicación SmartGlass:
+- Aplicación SmartGlass:
  - sistema operativo android
  - modulo de posicionamiento (al menos una de ellas):
-  * posicionamiento indoor vía wifi
-  * posicionamiento por medio de lectura de TagsQR
+  - posicionamiento indoor vía wifi
+  - posicionamiento por medio de lectura de TagsQR
  - modulo de consulta de pedidos
-+ Servicio Consulta Inventarios
+- Servicio Consulta Inventarios
  - servidor de aplicaciones o servidor web
  - sistema operativo se recomienda una variante de linux
  - modulo de consulta remota a sistema de inventarios
