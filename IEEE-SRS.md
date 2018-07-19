@@ -1,16 +1,16 @@
 # Especificación de Requerimientos de Software
 # Para  `<Prototipo ReA: [Re]alidad [A]umentada para el Apoyo de Procesos Logísticos>`
-Version `<0.1>`
+Version `<0.11>`
 Creada por
 `<OpenSAI>`
 `<Open Source Academic Initiative>`
 `<18 Julio 2018>`
 
-# Revision History
+# Historial de revisión
 | Name  | Date    | Reason For Changes  | Version   |
 | ----  | ------- | ------------------- | --------- |
 |  Sameer Pradhan | Mayo 2, 2018 | Initial version derived from the IEEE Std. 830 | 0.1 |
-|||||
+|OpenSAI|18 Julio 2018 | Recopilación documentación de requerimientos del proyecto| 0.11 |
 
 <div class="padding"></div>
 
