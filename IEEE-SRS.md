@@ -16,7 +16,7 @@ Creada por
 
 # 1. Introducción
 
-The introduction of the SRS should provide an overview of the entier SRS.
+<!-- The introduction of the SRS should provide an overview of the entier SRS. -->
 
 El presente proyecto describe las características mínimas viables, para un prototipo de aplicación, que utiliza técnicas de realidad aumentada en un dispositivo tipo smartglass, orientado a apoyar procesos de gestión logística en un centro de distribución.
 
@@ -27,9 +27,13 @@ Es un proyecto que nace de un esfuerzo conjunto entre SENA-SENNOVA-CGMLTI(Centro
 
 <!-- Identify the product whose software requirements are specified in this document, including the revision or release number. Describe the scope of the product that is covered by this SRS, particularly if this SRS describes only part of the system or a single subsystem.-->
 
-- Delineat the purpose of the SRS
-- Specify the intended audience of the SRS.
--  
+Este es el documento formal de Especificación de Requerimientos (SRS por sus siglas en inglés). Si bien el proyecto no tiene un metodología de desarrollo tradicional, ya que se busca generar desde la práctica un marco de trabajo ágil en su desarrollo, es recomendable la integración de herramientas, como las recomendaciones contenidas en el documento IEEE Std 830-1998 (IEEE Recommended Practice for Software Requeriments Specifications), comprendiendolo no como un estándar, sino como un conjunto simplificado de buenas prácticas mínimas para este tipo de documentación, sin entrar en los detalles de normas como la ISO/IEC/IEEE 29148, que pueden desbordar el alcance mismo del proyecto. 
+
+El presente documento, nace de una plantilla simplificada de la IEEE 830, originalmente creada por Karl E. Wiegers y traducida a notación tipo markdown por Sameer Pradhan (https://github.com/sameer-pradhan de http://cemantix.org), OpenSAI la ha traducido al español integrando los comentarios de guía del documento original de manera oculta.
+
+Está orientado a ser un documento de trabajo conjunto entre los responsables por parte del SENA-SENNOVA-CGMLTI y OpenSAI, tanto a nivel de concepción, diseño y desarrollo.
+
+Es necesario resaltar, que el prototipo mencionado es tan sólo uno de los componentes del proyecto, que incluye un proceso de transferencia de conocimiento, junto con toda la documentación del mismo, el presente documento hace parte de ella.
 
 ## 1.2 Scope
 
