@@ -204,7 +204,7 @@ Se describe a continuación los productos de software que interactuan con los co
   - modulo de posicionamiento (al menos una de ellas):
     - posicionamiento indoor vía wifi
     - posicionamiento por medio de lectura de TagsQR
- - modulo de consulta de pedidos
+  - modulo de consulta de pedidos
 - Servicio Consulta Inventarios
   - servidor de aplicaciones o servidor web
   - sistema operativo se recomienda una variante de linux
