@@ -54,9 +54,23 @@ Debido a las restricciones de ejecución (presupuestales y operativas) del proye
 
 Todo el conocimiento generado en el proceso, expresado en artefactos de documentación e ingeniería, involucran por términos contractuales, un marco de propiedad intelectual abierta, buscando generar una confianza de trabajo entre los actores involucrados, así como también fortalecer procesos de innovación futura.
 
-## 1.3 Definitions, acronyms and abbreviations
+## 1.3 Definiciones, acrónimos y abreviaturas
 
-This subsection should provide the definitions of all terms, acronyms, and abbreviations required to properly interpret the SRS. This information may be provided by reference to one or more appendixes in the SRS or by reference to other documents.
+- Realidad Aumentada
+- Picking
+- Propiedad Intelectual Abierta
+- EPSON BT-300
+- SmartGlass
+- ...
+
+<!-- 
+
+
+Definitions, acronyms and abbreviations
+
+This subsection should provide the definitions of all terms, acronyms, and abbreviations required to properly interpret the SRS. This information may be provided by reference to one or more appendixes in the SRS or by reference to other documents. 
+
+-->
 
 ## 1.4 References
 
