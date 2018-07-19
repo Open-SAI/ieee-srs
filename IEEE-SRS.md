@@ -1,11 +1,11 @@
 # Especificación de Requerimientos de Software
 ## Para  
-`<__Prototipo ReA__: __Re__alidad __A__umentada para el Apoyo de Procesos Logísticos>`
-Version `<0.11>`
+`< Prototipo ReA: REalidad Aumentada para el Apoyo de Procesos Logísticos >`
+Version `< 0.11 >`
 Creada por
-`<OpenSAI>`
-`<Open Source Academic Initiative>`
-`<18 Julio 2018>`
+`< OpenSAI >`
+`< Open Source Academic Initiative >`
+`< 18 Julio 2018 >`
 
 # Historial de revisión
 | Nombre  | Fecha    | Motivo de cambios  | Versión |
