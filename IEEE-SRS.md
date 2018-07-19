@@ -152,8 +152,8 @@ This should specify the following:
 
     This may simply comprise a list of do's and don'ts on how the system will appear to the user. One example may be a requirement for the option of long or short error messages. Like all others, these requirements should be verifiable, e.g., "a clerk typist grade 4 can do function X in Z min after 1 h of training" rather than "a typist can do function X." (This may also be specified in the Software System Attributes under a section titled Ease of Use.)-->
 Uno de los componentes del prototipo es básicamente una aplicación para el sistema operativo Android, instalada en el dispositivo smartglass. Esta aplicación es la que ofrece una interacción directa con el usuario final (operario de bodega).
-
-Cómo tal el dispositivo smartglass, es un una herramienta que el usuario se coloca en su cuerpo, las interfaces de interacción con la aplicación, se caracterizan por minimizar el uso de menús desplegables, requerimientos de escritura alfanumérica, presentación de información que genere distracción en su labor como operario, o que generen incomodidad después de uso prolongado. Estas características se asocian la las presentadas por las NUI (Natural User Interfaces).
+(
+Cómo tal el dispositivo smartglass, es una herramienta que el usuario se coloca en su cuerpo (a diferencia de un portátil o tablet), las interfaces de interacción con la aplicación, se caracterizan por minimizar el uso de menús desplegables, requerimientos de escritura alfanumérica, presentación de información que genere distracción en su labor como operario, o que generen incomodidad después de uso prolongado. Estas características se asocian la las presentadas por las NUI (Natural User Interfaces).
 
 La presentación de la información se realiza en las gafas que el operario se coloca (no se depende de una pantalla de móvil o de computador de escritorio), y la interacción es recibida por medio del padmouse del dispositivo smartglass.
 
@@ -200,31 +200,34 @@ For each interface, the following should be provided:
 Se describe a continuación los productos de software que interactuan con los componentes del prototipo:
 
 - Aplicación SmartGlass:
-  - sistema operativo android
-  - modulo de posicionamiento (al menos una de ellas):
-    - posicionamiento indoor vía wifi
-    - posicionamiento por medio de lectura de TagsQR
-  - modulo de consulta de pedidos
-- Servicio Consulta Inventarios
-  - servidor de aplicaciones o servidor web
-  - sistema operativo se recomienda una variante de linux
-  - modulo de consulta remota a sistema de inventarios
-  - modulo de presentación de notificación de inventarios hacia la smartglass
-  - interfaz de configuración (inclusión de dirección ip, credenciales)
-  - servidor de base de datos o sistema equivalente, para manejar registro de las consultas y operaciones realizadas por prototipo (smartglass y servicio de consulta de inventarios)
+  - sistema operativo android (Nombre, Clave, Versión, Fuente)
+  - modulo de posicionamiento (al menos una de ellas): (Nombre, Clave, Versión, Fuente)
+    - posicionamiento indoor vía wifi  (Nombre, Clave, Versión, Fuente)
+    - posicionamiento por medio de lectura de TagsQR  (Nombre, Clave, Versión, Fuente)
+  - modulo de consulta de pedidos  (Nombre, Clave, Versión, Fuente)
+- Servicio Consulta Inventarios (Nombre, Clave, Versión, Fuente)
+  - servidor de aplicaciones o servidor web (Nombre, Clave, Versión, Fuente)
+  - sistema operativo, se recomienda una variante de linux (Nombre, Clave, Versión, Fuente)
+  - modulo de consulta remota a sistema de inventarios (Nombre, Clave, Versión, Fuente)
+  - modulo de presentación de notificación de inventarios hacia la smartglass (Nombre, Clave, Versión, Fuente)
+  - interfaz de configuración (inclusión de dirección ip, credenciales,etc) 
+  - servidor de base de datos o sistema equivalente, para manejar registro de las consultas y operaciones realizadas por prototipo (smartglass y servicio de consulta de inventarios)  (Nombre, Clave, Versión, Fuente)
 
 ### 2.1.5 Interfaces de Comunicación
 <!--
 Communications interfaces
 This should specify the various interfaces to communications such as local network protocols, etc.
 -->
-
-
+- La aplicación en el dispositivo smartglass, se conecta la intranet de la empresa por medio de wifi
+- El Servicio de consulta de inventarios está alojado en la intranet de la empresa y ofrece una interfaz de consulta por medio de wifi o de conexión cableada
+- En caso de utilizar navegación indoor basada en wifi, el dispositivo smartglass hace una lectura de las señales irradiadas por los beacons wifi en el espacio de la bodega, para ser utilizado por el módulo de posionamiento de la aplicación android instalada
    
+### 2.1.6 Restricciones de memoria
+<!--Memory constraints
 
-### 2.1.6 Memory constraints
+This should specify any applicable characteristics and limits on primary and secondary memory.-->
 
-This should specify any applicable characteristics and limits on primary and secondary memory.
+
 
 ### 2.1.7 Operations
 
