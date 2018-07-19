@@ -1,7 +1,7 @@
 # Especificación de Requerimientos de Software
-# For  `<Prototipo ReA>`
+# Para  `<Prototipo ReA: [Re]alidad [A]umentada para el Apoyo de Procesos Logísticos>`
 Version `<0.1>`
-Prepared by
+Creada por
 `<OpenSAI>`
 `<Open Source Academic Initiative>`
 `<18 Julio 2018>`
@@ -9,14 +9,17 @@ Prepared by
 # Revision History
 | Name  | Date    | Reason For Changes  | Version   |
 | ----  | ------- | ------------------- | --------- |
-|  Sameer Pradhan | Mayo 2, 2018 | Initial version derived from the  &nbsp; | &nbsp; 0.1 |
-| |                        | IEEE Std. 830 (1998) &nbsp;              |  |
+|  Sameer Pradhan | Mayo 2, 2018 | Initial version derived from the IEEE Std. 830 | 0.1 |
+|||||
 
 <div class="padding"></div>
 
 # 1. Introduction
 
 The introduction of the SRS should provide an overview of the entier SRS.
+
+El presente proyecto describe las características mínimas viables para un prototipo de aplicación que utiliza técnicas de realidad aumentada en un dispositivo tipo smartglass, orientado a apoyar procesos de gestión logística en un centro de distribución.
+
 
 ## 1.1 Purpose
 
