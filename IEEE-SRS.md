@@ -35,12 +35,23 @@ Está orientado a ser un documento de trabajo conjunto entre los responsables po
 
 Es necesario resaltar, que el prototipo mencionado es tan sólo uno de los componentes del proyecto, que incluye un proceso de transferencia de conocimiento, junto con toda la documentación del mismo, el presente documento hace parte de ella.
 
-## 1.2 Scope
+## 1.2 Alcance del Producto 
 
+<!--
+Product Scope
+
+Provide a short description of the software being specified and its purpose, including relevant benefits, objectives, and goals. Relate the software to corporate goals or business strategies. If a separate vision and scope document is available, refer to it rather than duplicating its contents here. 
 - Identify the software being produced by name (Host DBMS, Report Generator, etc.);
 - Explain what the software being specified will, and necessarily will _not_ do;
 - Describe the application of the software being specified including relevant benefits, objectives, and goals;
 - Be consistent in similar statements in higher-level specifications (e.g., the system requirements specification), if they exist.
+
+-->
+La campo de conocimiento asociado a Logística es extremadamente amplio, si bien el objeto del proyecto lo menciona de manera genérica como:  *apoyo para los procesos de gestión logística en los centros de distribución*, es neceario resaltar que el alcance del presente prototipo, se limita a evidenciar el posible uso de las tecnologías de realidad aumentada, en el proceso de *picking*, comprendido como la tarea de alistamiento, de los productos asociados a algún tipo de pedido, del inventario existente en una bodega en particular.
+
+Debido a las restricciones de ejecución (presupuestales y operativas) del proyecto, el uso del prototipo esta orientado a evidenciar una posible aplicación en el sector productivo, sin llegar a una implementación operativa óptima en un entorno producto real, siendo el insumo inicial para gestionar una una posible etapa de implementación, ojalá en principio en las instalaciones del SENA-CGMLTI, para continuar con un proceso de investigación aplicada y educativa, como también bien en las instalaciones ofrecidas por el aliado del sector productivo (sin ningún tipo de costo), para retroalimentación y mejora de las características de un entorno productivo real.
+
+Todo el conocimiento generado en el proceso, expresado en artefactos de documentación e ingeniería, involucran por términos contractuales, un marco de propiedad intelectual abierta, buscando generar una confianza de trabajo entre los actores involucrados, así como también fortalecer procesos de innovación futura.
 
 ## 1.3 Definitions, acronyms and abbreviations
 
