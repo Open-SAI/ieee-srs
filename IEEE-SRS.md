@@ -14,17 +14,21 @@ Creada por
 
 <div class="padding"></div>
 
-# 1. Introduction
+# 1. Introducción
 
 The introduction of the SRS should provide an overview of the entier SRS.
 
-El presente proyecto describe las características mínimas viables para un prototipo de aplicación que utiliza técnicas de realidad aumentada en un dispositivo tipo smartglass, orientado a apoyar procesos de gestión logística en un centro de distribución.
+El presente proyecto describe las características mínimas viables, para un prototipo de aplicación, que utiliza técnicas de realidad aumentada en un dispositivo tipo smartglass, orientado a apoyar procesos de gestión logística en un centro de distribución.
+
+Es un proyecto que nace de un esfuerzo conjunto entre SENA-SENNOVA-CGMLTI(Centro de Gestión de Mercados, Logística y Tecnologías de la Información) y OpenSAI (Open Source Academic Initiative).
 
 
-## 1.1 Purpose
+## 1.1 Propósito
 
 - Delineat the purpose of the SRS
 - Specify the intended audience of the SRS.
+
+- 
 
 ## 1.2 Scope
 
