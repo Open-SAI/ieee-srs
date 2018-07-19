@@ -11,7 +11,7 @@ Creada por `< OpenSAI >`
 | Nombre  | Fecha    | Motivo de cambios  | Versión |
 | ----  | ------- | ------------------- | --------- |
 |  Sameer Pradhan | Mayo 2, 2018 | Initial version derived from the IEEE Std. 830 | 0.1 |
-|OpenSAI|18 Julio 2018 | Recopilación documentación de requerimientos del proyecto| 0.11 |
+|OpenSAI|9 Julio 2018 | Recopilación documentación de requerimientos del proyecto| 0.11 |
 
 <div class="padding"></div>
 
