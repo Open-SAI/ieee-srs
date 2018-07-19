@@ -25,7 +25,8 @@ Es un proyecto que nace de un esfuerzo conjunto entre SENA-SENNOVA-CGMLTI(Centro
 
 ## 1.1 Propósito
 
-<Identify the product whose software requirements are specified in this document, including the revision or release number. Describe the scope of the product that is covered by this SRS, particularly if this SRS describes only part of the system or a single subsystem.>
+<!-- Identify the product whose software requirements are specified in this document, including the revision or release number. Describe the scope of the product that is covered by this SRS, particularly if this SRS describes only part of the system or a single subsystem.-->
+
 - Delineat the purpose of the SRS
 - Specify the intended audience of the SRS.
 -  
