@@ -1,15 +1,15 @@
-# Software Requirements Specification
-# For  `<project name>`
-Version `<version>`
+# Especificación de Requerimientos de Software
+# For  `<Prototipo ReA>`
+Version `<0.1>`
 Prepared by
-`<author>`
-`<organization>`
-`<date created>`
+`<OpenSAI>`
+`<Open Source Academic Initiative>`
+`<18 Julio 2018>`
 
 # Revision History
 | Name  | Date    | Reason For Changes  | Version   |
 | ----  | ------- | ------------------- | --------- |
-|  Sameer Pradhan &nbsp; | May 2, 2018 &nbsp;| Initial version derived from the  &nbsp; | &nbsp; 0.1 |
+|  Sameer Pradhan | Mayo 2, 2018 | Initial version derived from the  &nbsp; | &nbsp; 0.1 |
 | |                        | IEEE Std. 830 (1998) &nbsp;              |  |
 
 <div class="padding"></div>
