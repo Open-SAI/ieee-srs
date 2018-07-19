@@ -227,8 +227,6 @@ This should specify the various interfaces to communications such as local netwo
 
 This should specify any applicable characteristics and limits on primary and secondary memory.-->
 
-
-
 ### 2.1.7 Operations
 
 This should specify the normal and special operations required by the user such as
