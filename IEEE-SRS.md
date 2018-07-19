@@ -71,6 +71,9 @@ This subsection should provide the definitions of all terms, acronyms, and abbre
 - SmartGlass
 - NUI (Natural User Interfaces)
 - Android
+- Posicionamiento Indoor por medio de wifi
+- Beacons
+- TagsQR
 
 
 ## 1.4 Referencias
@@ -194,12 +197,30 @@ For each interface, the following should be provided:
 - Discussion of the purpose of the interfacing software as related to this software product.
 - Definition of the interface in terms of message content and format. It is not necessary to detail any well-documented interface, but a reference to the document defining the interface is required.-->
 
+Se describe a continuación los productos de software que interactuan con los componentes del prototipo:
 
++ Aplicación SmartGlass:
+ - sistema operativo android
+ - modulo de posicionamiento (al menos una de ellas):
+  * posicionamiento indoor vía wifi
+  * posicionamiento por medio de lectura de TagsQR
+ - modulo de consulta de pedidos
++ Servicio Consulta Inventarios
+ - servidor de aplicaciones o servidor web
+ - sistema operativo se recomienda una variante de linux
+ - modulo de consulta remota a sistema de inventarios
+ - modulo de presentación de notificación de inventarios hacia la smartglass
+ - interfaz de configuración (inclusión de dirección ip, credenciales)
+ - servidor de base de datos o sistema equivalente, para manejar registro de las consultas y operaciones realizadas por prototipo (smartglass y servicio de consulta de inventarios)
 
-
-### 2.1.5 Communications interfaces
-
+### 2.1.5 Interfaces de Comunicación
+<!--
+Communications interfaces
 This should specify the various interfaces to communications such as local network protocols, etc.
+-->
+
+
+
 
 ### 2.1.6 Memory constraints
 
