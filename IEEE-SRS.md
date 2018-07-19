@@ -56,15 +56,7 @@ Todo el conocimiento generado en el proceso, expresado en artefactos de document
 
 ## 1.3 Definiciones, acrónimos y abreviaturas
 
-- Realidad Aumentada
-- Picking
-- Propiedad Intelectual Abierta
-- EPSON BT-300
-- SmartGlass
-- ...
-
 <!-- 
-
 
 Definitions, acronyms and abbreviations
 
@@ -72,7 +64,19 @@ This subsection should provide the definitions of all terms, acronyms, and abbre
 
 -->
 
-## 1.4 References
+- Realidad Aumentada
+- Picking
+- Propiedad Intelectual Abierta
+- EPSON BT-300
+- SmartGlass
+- NUI (Natural User Interfaces)
+- Android
+
+
+## 1.4 Referencias
+<!-- 
+
+References
 
 This subsection should
 
@@ -81,20 +85,33 @@ This subsection should
 - Specify the sources from which the references can be obtained.
 
 This information may be provided by reference to an appendix or to another document.
+-->
+- IEEE 830
+- IEEE 29148
+- Proyecto Human Interaction Oriented Dev
+- Proyecto Navegación indoor via Wifi estadístico
+- Proyecto Navegación indoor subpos
+- ..
 
-
-## 1.5 OVerview
+## 1.5 Resumen General
+<!-- Overview
 
 This subsection should
 
 - Describe what the rest of the SRS contains;
 - Explain how the SRS is organized.
+-->
+...
 
-# 2 Overall Description
+# 2 Descripción General
 
+<!-- Overall Description
 This section of the SRS should describe the general factors that affect the product and its requirements. This section does not state specific requirements. Instead, it provides a background for those requirements, which are defined in detail in Section 3 of the SRS, and makes them easier to understand.
+-->
+Se describe a continuación el entorno general donde se espera que funcione el prototipo.
 
-## 2.1 Product Perspective
+## 2.1 Perspectiva del producto
+<!-- Product Perspective
 
 This subsection of the SRS should put the product into perspective with other related products. If the product is independent and totally self-contained, it should be so stated here. If the SRS defines a product that is a component of a larger system, as frequently occurs, then this subsection should relate the requirements of that larger system to functionality of the software and should identify interfaces between that system and the software.
 A block diagram showing the major components of the larger system, interconnections, and external interfaces can be helpful.
@@ -110,12 +127,18 @@ This subsection should also describe how the software operates inside various co
 - Operations;
 - Site adaptation requirements.
 
+Describe the context and origin of the product being specified in this SRS. For example, state whether this product is a follow-on member of a product family, a replacement for certain existing systems, or a new, self-contained product. If the SRS defines a component of a larger system, relate the requirements of the larger system to the functionality of this software and identify interfaces between the two. A simple diagram that shows the major components of the overall system, subsystem interconnections, and external interfaces can be helpful.
+-->
+Se concibe el prototipo como una unidad funcional de software independiente, no hace parte de los sistema de información de la organización, en el sentido de que los sistema existentes (inventario, contabilidad, pedidos, etc.) pueden funcionar sin él, sin ningún problema. Sin embargo, desde una lógica basada en servicios, el prototipo consume y ofrece información a los sistema existentes, con el objetivo de apoyar o fortalecer su funcionamiento, desde la funcionalidad de alistamiento de pedidos en bodega.
 
-### 2.1.1 System interfaces
+### 2.1.1 Interfaces de Sistemas 
+<!-- System interfaces
 
-This should list each system interface and identify the functionality of the software to accomplish the system requirement and the interface description to match the system.
+This should list each system interface and identify the functionality of the software to accomplish the system requirement and the interface description to match the system. -->
+El prototipo tiene una interacción directa con el sistema de inventarios de la empresa, ya que de él recibe los pedidos pendientes. A su vez el debe consumir los datos generados en el proceso de alistamiento del pedido. Todo lo anterior se realiza por un técnica de bajo acoplamiento, es decir, por medio de un servicio web, o por algún método de consultas remotas de datos, en lo posible de naturaleza web.
 
-### 2.1.2 User interfaces
+### 2.1.2 Interfaces de Usuario
+<!-- User interfaces
 
 This should specify the following:
 
@@ -124,13 +147,39 @@ This should specify the following:
     This includes those configuration characteristics (e.g., required screen formats, page or window layouts, content of any reports or menus, or availability of programmable function keys) necessary to accomplish the software requirements.
 - _All the aspects of optimizing the interface with the person who must use the system._
 
-    This may simply comprise a list of do's and don'ts on how the system will appear to the user. One example may be a requirement for the option of long or short error messages. Like all others, these requirements should be verifiable, e.g., "a clerk typist grade 4 can do function X in Z min after 1 h of training" rather than "a typist can do function X." (This may also be specified in the Software System Attributes under a section titled Ease of Use.)
+    This may simply comprise a list of do's and don'ts on how the system will appear to the user. One example may be a requirement for the option of long or short error messages. Like all others, these requirements should be verifiable, e.g., "a clerk typist grade 4 can do function X in Z min after 1 h of training" rather than "a typist can do function X." (This may also be specified in the Software System Attributes under a section titled Ease of Use.)-->
+Uno de los componentes del prototipo es básicamente una aplicación para el sistema operativo Android, instalada en el dispositivo smartglass. Esta aplicación es la que ofrece una interacción directa con el usuario final (operario de bodega).
 
-### 2.1.3 Hardware interfaces
+Cómo tal el dispositivo smartglass, es un una herramienta que el usuario se coloca en su cuerpo, las interfaces de interacción con la aplicación, se caracterizan por minimizar el uso de menús desplegables, requerimientos de escritura alfanumérica, presentación de información que genere distracción en su labor como operario, o que generen incomodidad después de uso prolongado. Estas características se asocian la las presentadas por las NUI (Natural User Interfaces).
 
-This should specify the logical characteristics of each interface between the software product and the hardware components of the system. This includes configuration characteristics (number of ports, instruction sets, etc.). It also covers such matters as what devices are to be supported, how they are to be supported, and protocols. For example, terminal support may specify full-screen support as opposed to line-by-line support.
+La presentación de la información se realiza en las gafas que el operario se coloca (no se depende de una pantalla de móvil o de computador de escritorio), y la interacción es recibida por medio del padmouse del dispositivo smartglass.
 
-### 2.1.4 Software interfaces
+La aplicación ofrece al operario, las indicaciones de navegación en el espacio de bodega por medio de flechas, que se sobreponen a la imagen percibida por las smartglass.
+
+El objetivo de las indicaciones de navegación por las flechas mencionadas, es orientar al operario en la búsqueda de un producto dentro de la bodega.
+
+El producto que operario busca en la bodega, hace parte del pedido que ha sido consultado al sistema de inventarios de la empresa, por medio de un servicio web (o su equivalente: consulta remota vía web), y ha sido reportado al dispositivo, para el usuario esto no es visible, el simplemente verá unaalerta en las smartglass. 
+
+El pedido actual para alistamiento es presentado al operario de bodega, como una lista, desde la cual él escoge el producto a buscar en la bodega.
+
+Existe otra interfaz de uso del prototipo, orientada hacia un usuario administrativo, relacionada con la utilidad que realiza las consultas al sistema de inventarios de la empresa, su objetivo es básicamente permitir la configuración para conectarse a la consulta remota del sistema de inventarios (direción ip de consulta, posible uso de credenciales de acceso), incluyendo también el acceso al historico de alistamiento de pedidos realizados desde el smartglass.
+
+Esta última funcionalidad se usa desde un computador convencional o dispositivo móvil, su interfaz es web y funciona en la intranet de la empresa.
+
+### 2.1.3 Interfaces de Hardware
+
+<!-- Hardware interfaces
+
+This should specify the logical characteristics of each interface between the software product and the hardware components of the system. This includes configuration characteristics (number of ports, instruction sets, etc.). It also covers such matters as what devices are to be supported, how they are to be supported, and protocols. For example, terminal support may specify full-screen support as opposed to line-by-line support.-->
+
+El prototipo no se conecta a ningún dispositivo distinto al servidor (o instancia) que ofrece el servicio web de consulta de pedidos para alistamiento.
+
+Existe la posibilidad de utilizar la irradiación de señales wifi ofrecida por beacons instalados en la bodega, esta interacción se da desde el dispositivo smartglass.
+
+
+### 2.1.4 Interfaces de Software
+
+<!--Software interfaces
 
 This should specify the use of other required software products (e.g., a data management system, an operating system, or a mathematical package), and interfaces with other application systems (e.g., the linkage between an accounts receivable system and a general ledger system). For each required software product, the following should be provided:
 
@@ -143,7 +192,10 @@ This should specify the use of other required software products (e.g., a data ma
 For each interface, the following should be provided:
 
 - Discussion of the purpose of the interfacing software as related to this software product.
-- Definition of the interface in terms of message content and format. It is not necessary to detail any well-documented interface, but a reference to the document defining the interface is required.
+- Definition of the interface in terms of message content and format. It is not necessary to detail any well-documented interface, but a reference to the document defining the interface is required.-->
+
+
+
 
 ### 2.1.5 Communications interfaces
 
